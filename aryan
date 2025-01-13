@@ -22,15 +22,15 @@ def main():
     print("Dictionary g:", g)  # Dictionary g: {'name': 'Aryan', 'age': 19}
 
     # Initializing real numbers
-    x = 5
-    y = 3
+    x = 89
+    y = 52
 
     # converting x and y into complex number
     z = complex(x, y)
 
     # printing real and imaginary part of complex number
-    print("The real part of complex number is:", z.real)
-    print("The imaginary part of complex number is:", z.imag)
+    print("The real part of complex number is:", z.real)  # The real part of complex number is:89.0
+    print("The imaginary part of complex number is:", z.imag) #The imaginary part of complex number is:52.0
 
     # List
     h = [1, 2, 3, 4, 5]
