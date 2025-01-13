@@ -69,7 +69,7 @@ def main():
 
     # Input-Output Statements
     name = input("Enter your name: ")
-    print("Hello, " + name + "!")  # Output depends on user input
+    print("Hello, " + name + "!")  # Hello,Aryan!
 
 if __name__ == "__main__":
     main()
