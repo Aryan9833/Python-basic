@@ -1,0 +1,60 @@
+# Integers
+def main():
+    a = 10
+    b = 5
+    print("Integer a:", a)  # Integer a: 10
+    print("Integer b:", b)  # Integer b: 5
+
+    # Floats
+    c = 10.5
+    d = 5.5
+    print("Float c:", c)  # Float c: 10.5
+    print("Float d:", d)  # Float d: 5.5
+
+    # Boolean
+    e = True
+    f = False
+    print("Boolean e:", e)  # Boolean e: True
+    print("Boolean f:", f)  # Boolean f: False
+
+    # Dictionaries
+    g = {"name": "Alice", "age": 25}
+    print("Dictionary g:", g)  # Dictionary g: {'name': 'Alice', 'age': 25}
+
+    # List
+    h = [1, 2, 3, 4, 5]
+    print("List h:", h)  # List h: [1, 2, 3, 4, 5]
+
+    # Tuple
+    i = (1, 2, 3, 4, 5)
+    print("Tuple i:", i)  # Tuple i: (1, 2, 3, 4, 5)
+
+    # Arithmetic Operators
+    print("a + b =", a + b)  # a + b = 15
+    print("a - b =", a - b)  # a - b = 5
+    print("a * b =", a * b)  # a * b = 50
+    print("a / b =", a / b)  # a / b = 2.0
+
+    # Comparison Operators
+    print("a > b:", a > b)  # a > b: True
+    print("a < b:", a < b)  # a < b: False
+    print("a == b:", a == b)  # a == b: False
+    print("a != b:", a != b)  # a != b: True
+
+    # Logical Operators
+    print("e and f:", e and f)  # e and f: False
+    print("e or f:", e or f)  # e or f: True
+    print("not e:", not e)  # not e: False
+
+    # Expressions
+    integer_value = 10
+    float_value = 5.5
+    expression_result = (integer_value + float_value) * 2 / 3
+    print("Expression Result ((Integer + Float) * 2 / 3):", expression_result)  # Expression Result ((Integer + Float) * 2 / 3): 10.333333333333334
+
+    # Input-Output Statements
+    name = input("Enter your name: ")
+    print("Hello, " + name + "!")  # Hello,Aryan
+
+if __name__ == "__main__":
+    main()
