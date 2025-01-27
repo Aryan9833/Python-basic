@@ -1,0 +1,68 @@
+# 1. Creating a set
+my_set = {1976, 2005, 1891, 7890}
+# Output: {1976, 2005, 1891, 7890}
+
+# 2. add(): Adds an element to a set
+my_set.add(6)
+# Output: {1976, 2005, 1891, 7890, 6}
+
+# 3. remove() and discard()
+my_set.remove(1891)
+# Output: {1976, 2005, 7890, 6}
+
+my_set.discard(10)
+# Output: {1976, 2005, 7890, 6} (no error)
+
+# 4. union(): Returns a new set with unique elements from both sets
+set1 = {1976, 2005, 1891}
+set2 = {7890, 2005}
+set_result = set1.union(set2)
+# Output: {1976, 2005, 1891, 7890}
+
+# 5. intersection(): Returns a new set with common elements from two sets
+set_result = set1.intersection(set2)
+# Output: {2005}
+
+# Built-in String Functions
+my_string = " Aryan Sharma "
+
+# 1. len(): Returns the length of the string
+length = len(my_string)
+# Output: 13
+
+# 2. str.upper(): Converts all characters in a string to uppercase
+upper_string = my_string.upper()
+# Output: " Aryan Sharma "
+
+# 3. str.lower(): Converts all characters in a string to lowercase
+lower_string = my_string.lower()
+# Output: " aryan sharma "
+
+# 4. str.capitalize(): Capitalizes the first character of the string
+capitalized_string = my_string.capitalize()
+# Output: " aryan sharma "
+
+# 5. str.title(): Converts the first character of each word to uppercase
+title_string = my_string.title()
+# Output: " Aryan Sharma "
+
+# 6. str.strip(): Removes leading and trailing whitespaces from the string
+stripped_string = my_string.strip()
+# Output: "Aryan Sharma"
+
+# 7. str.replace(): Replaces a specified substring with another substring
+replaced_string = my_string.replace("Sharma", "Python")
+# Output: " Aryan Python "
+
+# 8. str.find(): Finds the index of the first occurrence of a substring
+index = my_string.find("Sharma")
+# Output: 7
+
+# 9. str.split(): Splits the string into a list of substrings based on a delimiter
+split_list = my_string.split(" ")
+# Output: ['', 'Aryan', 'Sharma', '']
+
+# 10. str.join(): Joins elements of an iterable (like a list) into a single string
+joined_string = "-".join(split_list)
+# Output: "-Aryan-Sharma-"
+
