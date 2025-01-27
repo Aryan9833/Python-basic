@@ -1,0 +1,43 @@
+# 1. Creating a tuple
+my_tuple = (56, 222, 36, 89, 90)
+#oup: (56, 222, 36, 89, 90)
+
+# 2. Accessing elements by index
+element = my_tuple[2]
+# Output: 36
+
+# Slicing a tuple
+sliced_tuple = my_tuple[1:4]
+# Output: (222, 36, 89)
+
+# 3. Finding the length of a tuple
+length = len(my_tuple)
+# Output: 5
+
+# Checking for existence of an element
+existence = 3 in my_tuple
+# Output: False
+
+# Finding the index of an element
+index = my_tuple.index(90)
+# Output: 4
+
+# 4. Counting occurrences of an element in a tuple
+count = my_tuple.count(2)
+# Output: 0
+
+# 5. Tuple Operations (Immutable)
+# Tuples are immutable, so direct modification operations are not feasible.
+
+# 6. Join Tuple
+# Using the ‘+’ Operator for Concatenation:
+tuple1 = (1976, 2005, 1023)
+tuple2 = ('aryan', 'sharma', 'shailendra')
+joined_tuple = tuple1 + tuple2
+# Output: (1976, 2005, 1023, 'aryan', 'sharma', 'shailendra')
+
+# Creating a New Tuple with Elements from Multiple Tuples:
+tuple3 = ('x', 'y')
+tuple4 = (5632, 454)
+joined_tuple_2 = tuple3 + tuple4
+# Output: ('x', 'y', 5632, 454)
