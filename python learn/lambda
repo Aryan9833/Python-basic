@@ -1,0 +1,88 @@
+# len(iterable): Returns the length (number of items) of an iterable object
+length = len([2005, 1987, 2004, 1998, 849302])
+# Output: 5
+
+# type(object): Returns the type of the object
+obj_type = type(2005)
+# Output: <class 'int'>
+
+# print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False): Prints the specified objects
+print("aryan", "sharma", sep=", ", end="!\n")
+# Output: aryan, sharma!
+
+# input(prompt=''): Reads a line from the standard input
+# user_input = input("Enter something: ")
+# Output: (depends on user input)
+
+# int(x, base=10), float(x), str(object): Convert a number or string to an integer, float, or string
+int_value = int("2005")
+# Output: 2005
+
+float_value = float("1987.45")
+# Output: 1987.45
+
+str_value = str(2004)
+# Output: "2004"
+
+# list(iterable), tuple(iterable), set(iterable): Creates a list, tuple, or set from the elements of an iterable
+list_value = list("aryan")
+# Output: ['a', 'r', 'y', 'a', 'n']
+
+tuple_value = tuple("aryan")
+# Output: ('a', 'r', 'y', 'a', 'n')
+
+set_value = set("aryan")
+# Output: {'a', 'r', 'y', 'n'}
+
+# max(iterable, *args, key=None), min(iterable, *args, key=None): Returns the maximum or minimum element
+max_value = max([2005, 1987, 2004, 1998, 849302])
+# Output: 849302
+
+min_value = min([2005, 1987, 2004, 1998, 849302])
+# Output: 1987
+
+# sum(iterable, start=0): Returns the sum of all elements in an iterable
+sum_value = sum([2005, 1987, 2004, 1998, 849302])
+# Output: 857296
+
+# sorted(iterable, key=None, reverse=False): Returns a new sorted list from the elements of an iterable
+sorted_list = sorted([2005, 1987, 2004, 1998, 849302])
+# Output: [1987, 1998, 2004, 2005, 849302]
+
+# range(stop), range(start, stop, step): Generates a sequence of numbers within a specified range
+range_list = list(range(1987, 2006, 5))
+# Output: [1987, 1992, 1997, 2002]
+
+# Defining a function
+def add_numbers(a, b=10):
+    """
+    Adds two numbers and returns the result.
+    """
+    return a + b
+
+# Function Name: add_numbers
+# Parameters: a, b (with default value 10)
+# Function Body: Adds two numbers
+# Return Statement: Returns the sum of a and b
+
+# Calling a function
+result = add_numbers(5)
+# Output: 15 (since b has a default value of 10)
+
+result_with_b = add_numbers(5, 20)
+# Output: 25 (since b is provided as 20)
+
+# Lambda function
+multiply = lambda x, y: x * y
+
+# No Name: Lambda functions are anonymous because they don't have a name like regular functions defined with def.
+# Single Expression: Lambda functions are limited to a single expression, and the result of the expression is implicitly returned.
+# Used for Small Operations: Lambda functions are often used for small operations and as arguments to higher-order functions like map(), filter(), and sorted().
+# Conciseness: Lambda functions are concise and useful when a full function definition is unnecessary.
+# No Statements: Lambda functions can only contain expressions, not statements.
+# Immutable: Lambda functions create anonymous functions, and once defined, their behavior cannot be changed.
+
+# Using the lambda function
+result = multiply(5, 3)
+# Output: 15
+
