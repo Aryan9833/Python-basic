@@ -1,0 +1,57 @@
+# 1. Creating a list
+my_list = [2003, 2005, 39009, 70009, 8483382, 28939302938, 1973, 1768, 2998, 78787]
+# Output: [2003, 2005, 39009, 70009, 8483382, 28939302938, 1973, 1768, 2998, 78787]
+
+# 2. Appending and Extending Lists
+# Appending elements to a list
+my_list.append(6)
+# Output: [2003, 2005, 39009, 70009, 8483382, 28939302938, 1973, 1768, 2998, 78787, 6]
+
+# Extending a list with another list
+another_list = [7, 8, 9]
+my_list.extend(another_list)
+# Output: [2003, 2005, 39009, 70009, 8483382, 28939302938, 1973, 1768, 2998, 78787, 6, 7, 8, 9]
+
+# 3. Accessing Elements
+# Accessing elements by index
+element = my_list[2]
+# Output: 39009
+
+# Slicing a list
+sliced_list = my_list[1:4]
+# Output: [2005, 39009, 70009]
+
+# 4. Inserting and Removing Elements
+# Inserting elements at specific positions
+my_list.insert(3, 10) # Inserting 10 at index 3
+# Output: [2003, 2005, 39009, 10, 70009, 8483382, 28939302938, 1973, 1768, 2998, 78787, 6, 7, 8, 9]
+
+# Removing elements by value
+my_list.remove(70009)
+# Output: [2003, 2005, 39009, 10, 8483382, 28939302938, 1973, 1768, 2998, 78787, 6, 7, 8, 9]
+
+# Removing elements by index
+del my_list[0] # Deleting the element at index 0
+# Output: [2005, 39009, 10, 8483382, 28939302938, 1973, 1768, 2998, 78787, 6, 7, 8, 9]
+
+# 5. List Manipulation
+# Reversing a list
+my_list.reverse()
+# Output: [ 78787, 2998, 1768, 1973, 28939302938, 8483382, 10, 39009, 2005]
+
+# Sorting a list
+my_list.sort()
+# Output: [ 1768, 1973, 2005, 2998, 39009, 78787, 8483382, 28939302938]
+
+# Counting occurrences of an element in a list
+count = my_list.count(2)
+# Output: 2005
+
+# 6. List Information
+# Finding the length of a list
+length = len(my_list)
+# Output: 10
+
+# Finding the index of an element
+index = my_list.index(2998)
+# Output:9
